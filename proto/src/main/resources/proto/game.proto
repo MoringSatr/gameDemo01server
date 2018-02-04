@@ -1,0 +1,17 @@
+syntax = "proto3";
+option java_package = "com.liubowen.game";
+option java_outer_classname = "GameProto";
+package GameProto;
+
+/** 通讯消息 */
+message Message {
+    //  消息号
+    int32 cmd = 1;
+    //  消息体
+    bytes body = 2;
+}
+
+message Text {
+    string id = 1;
+    string message = 2;
+}
