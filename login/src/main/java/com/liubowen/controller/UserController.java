@@ -2,8 +2,8 @@ package com.liubowen.controller;
 
 import com.google.common.collect.Maps;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
 import java.util.Map;
 
 /**
@@ -11,7 +11,8 @@ import java.util.Map;
  * @date 2018/2/4 18:22
  * @description
  */
-@RestController("userController")
+@RestController
+@RequestMapping("/userController")
 public class UserController {
 
     @PostMapping("/login")
