@@ -21,6 +21,7 @@
         <module>login</module>
         <module>proto</module>
         <module>room</module>
+        <module>core</module>
     </modules>
 
 </project>
